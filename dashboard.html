@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MDrive Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside class="sidebar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="md logo.png" alt="MDrive Logo" width="135"
+          /></a>
+        </div>
+        <nav>
+          <a href="#" class="active">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 11.5L12 4l9 7.5"></path>
+                <path d="M5 10.5V20h14v-9.5"></path>
+                <path d="M9 20v-5h6v5"></path>
+              </svg>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M5 16l1-6h12l1 6"></path>
+                <path d="M7 16v3"></path>
+                <path d="M17 16v3"></path>
+                <path d="M6 10l2-4h8l2 4"></path>
+                <circle cx="8" cy="16" r="1.5"></circle>
+                <circle cx="16" cy="16" r="1.5"></circle>
+              </svg>
+            </span>
+            Browse Cars
+          </a>
+
+          <a href="#">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <rect x="4" y="5" width="16" height="15" rx="2"></rect>
+                <path d="M8 3v4"></path>
+                <path d="M16 3v4"></path>
+                <path d="M4 9h16"></path>
+                <path d="M8 13h2"></path>
+                <path d="M14 13h2"></path>
+              </svg>
+            </span>
+            My Bookings
+          </a>
+
+          <a href="#">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="M3 10h18"></path>
+                <path d="M7 15h4"></path>
+              </svg>
+            </span>
+            Payments
+          </a>
+
+          <a href="#">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="8" r="4"></circle>
+                <path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"></path>
+              </svg>
+            </span>
+            Profile
+          </a>
+
+          <a href="#">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19 12a7 7 0 0 0-.1-1"></path>
+                <path d="M17.5 6.5l-1.4-1.4"></path>
+                <path d="M12 5V3"></path>
+                <path d="M6.5 6.5L5 5"></path>
+                <path d="M5 12H3"></path>
+                <path d="M6.5 17.5L5 19"></path>
+                <path d="M12 19v2"></path>
+                <path d="M17.5 17.5L19 19"></path>
+                <path d="M19 12h2"></path>
+              </svg>
+            </span>
+            Settings
+          </a>
+
+          <a href="#" class="logout">
+            <span class="icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M10 5H5v14h5"></path>
+                <path d="M14 8l4 4-4 4"></path>
+                <path d="M18 12H9"></path>
+              </svg>
+            </span>
+            Log Out
+          </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <p>Drive Your</p>
+          <h3>Next Chapter</h3>
+          <div></div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="top-bar">
+          <div class="search-box">
+            <span class="search-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M16 16l5 5"></path>
+              </svg>
+            </span>
+
+            <input
+              type="text"
+              placeholder="Search cars, brands, or models..."
+            />
+          </div>
+
+          <div class="top-right">
+            <a href="#" class="notification">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"
+                ></path>
+                <path d="M10 21h4"></path>
+              </svg>
+
+              <span></span>
+            </a>
+
+            <div class="user">
+              <div class="user-image">JP</div>
+              <p>John Packer</p>
+            </div>
+          </div>
+        </header>
+        <div class="dashboard-content">
+          <h1>Dashboard</h1>
+        </div>
+
+        <div class="top-dashboard">
+          <div class="welcome-card">
+            <div class="welcome-text">
+              <p>Welcome back,</p>
+
+              <h1>John <span>Packer</span></h1>
+
+              <h3>
+                Explore our latest cars, manage your bookings and enjoy a
+                seamless experience.
+              </h3>
+            </div>
+
+            <div class="welcome-car">
+              <img src="dash.png" alt="MDrive Car" />
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-top">
+              <div class="profile-image">JP</div>
+
+              <div class="profile-info">
+                <h3>John Packer</h3>
+                <p>johnpacker@gmail.com</p>
+
+                <span class="active-status">
+                  <i></i>
+                  Active
+                </span>
+              </div>
+            </div>
+
+            <div class="profile-links">
+              <a href="#">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="8" r="4"></circle>
+                  <path d="M4 21c0-4 3.5-6 8-6s8 2 8 6"></path>
+                </svg>
+
+                <span>View Profile</span>
+
+                <b>&rsaquo;</b>
+              </a>
+
+              <a href="#">
+                <svg viewBox="0 0 24 24">
+                  <rect x="4" y="5" width="16" height="15" rx="2"></rect>
+                  <path d="M8 3v4"></path>
+                  <path d="M16 3v4"></path>
+                  <path d="M4 9h16"></path>
+                </svg>
+
+                <span>My Bookings</span>
+
+                <b>&rsaquo;</b>
+              </a>
+
+              <a href="#">
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="M3 10h18"></path>
+                  <path d="M7 15h4"></path>
+                </svg>
+
+                <span>Payment History</span>
+
+                <b>&rsaquo;</b>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-middle">
+          <div class="stats">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 16l1-6h12l1 6"></path>
+                  <path d="M7 16v3"></path>
+                  <path d="M17 16v3"></path>
+                  <path d="M6 10l2-4h8l2 4"></path>
+                  <circle cx="8" cy="16" r="1.5"></circle>
+                  <circle cx="16" cy="16" r="1.5"></circle>
+                </svg>
+              </div>
+
+              <p>Total Cars</p>
+
+              <h2>24</h2>
+
+              <div class="stat-bottom">
+                <span>Available for Purchase</span>
+                <a href="#">&rarr;</a>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24">
+                  <rect x="4" y="5" width="16" height="15" rx="2"></rect>
+                  <path d="M8 3v4"></path>
+                  <path d="M16 3v4"></path>
+                  <path d="M4 9h16"></path>
+                </svg>
+              </div>
+
+              <p>Bookings</p>
+
+              <h2>2</h2>
+
+              <div class="stat-bottom">
+                <span>Pending &amp; Completed</span>
+                <a href="#">&rarr;</a>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="8" cy="8" r="3"></circle>
+                  <circle cx="16" cy="8" r="3"></circle>
+                  <path d="M2 20c0-3 2.5-5 6-5"></path>
+                  <path d="M16 15c3.5 0 6 2 6 5"></path>
+                </svg>
+              </div>
+
+              <p>Messages</p>
+
+              <h2>0</h2>
+
+              <div class="stat-bottom">
+                <span>New Messages</span>
+                <a href="#">&rarr;</a>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="M3 10h18"></path>
+                  <path d="M7 15h4"></path>
+                </svg>
+              </div>
+
+              <p>Payments</p>
+
+              <h2>1</h2>
+
+              <div class="stat-bottom">
+                <span>Recent Payment</span>
+                <a href="#">&rarr;</a>
+              </div>
+            </div>
+          </div>
+          <div class="quick-actions">
+            <h2>Quick Actions</h2>
+
+            <a href="#">
+              <svg viewBox="0 0 24 24">
+                <path d="M5 16l1-6h12l1 6"></path>
+                <path d="M7 16v3"></path>
+                <path d="M17 16v3"></path>
+                <path d="M6 10l2-4h8l2 4"></path>
+                <circle cx="8" cy="16" r="1.5"></circle>
+                <circle cx="16" cy="16" r="1.5"></circle>
+              </svg>
+
+              <span>Browse All Cars</span>
+
+              <b>&rsaquo;</b>
+            </a>
+
+            <a href="#">
+              <svg viewBox="0 0 24 24">
+                <rect x="4" y="5" width="16" height="15" rx="2"></rect>
+                <path d="M8 3v4"></path>
+                <path d="M16 3v4"></path>
+                <path d="M4 9h16"></path>
+              </svg>
+
+              <span>Book a Test Drive</span>
+
+              <b>&rsaquo;</b>
+            </a>
+
+            <a href="#">
+              <svg viewBox="0 0 24 24">
+                <path d="M5 3h11l3 3v15H5z"></path>
+                <path d="M15 3v4h4"></path>
+                <path d="M8 12h8"></path>
+                <path d="M8 16h5"></path>
+              </svg>
+
+              <span>Apply for Financing</span>
+
+              <b>&rsaquo;</b>
+            </a>
+
+            <a href="#">
+              <svg viewBox="0 0 24 24">
+                <path d="M18 15a6 6 0 0 0 0-6"></path>
+                <path d="M6 9a6 6 0 0 0 0 6"></path>
+                <path d="M18 15v3"></path>
+                <path d="M6 15v3"></path>
+                <rect x="3" y="15" width="4" height="5" rx="1"></rect>
+                <rect x="17" y="15" width="4" height="5" rx="1"></rect>
+              </svg>
+
+              <span>Contact Support</span>
+
+              <b>&rsaquo;</b>
+            </a>
+          </div>
+        </div>
+
+        <div class="dashboard-bottom">
+          <div class="featured-section">
+            <div class="section-top">
+              <div>
+                <p class="section-label">OUR COLLECTION</p>
+                <h2>Featured Cars</h2>
+              </div>
+
+              <a href="#">View All &rarr;</a>
+            </div>
+
+            <div class="featured-cars">
+              <div class="featured-car">
+                <div class="featured-image">
+                  <img src="mb.jpg" alt="Mercedes-Benz C-Class" />
+                </div>
+
+                <div class="featured-info">
+                  <h3>Mercedes-Benz C-Class</h3>
+                  <p>2024 &nbsp; | &nbsp; Automatic</p>
+
+                  <div class="featured-price">
+                    <strong>$48,500</strong>
+                    <a href="#">View &rarr;</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-car">
+                <div class="featured-image">
+                  <img src="bmw.jpg" alt="BMW 5 Series" />
+                </div>
+
+                <div class="featured-info">
+                  <h3>BMW 5 Series</h3>
+                  <p>2023 &nbsp; | &nbsp; Automatic</p>
+
+                  <div class="featured-price">
+                    <strong>$52,900</strong>
+                    <a href="#">View &rarr;</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-car">
+                <div class="featured-image">
+                  <img src="tc.jpg" alt="Toyota Camry" />
+                </div>
+
+                <div class="featured-info">
+                  <h3>Toyota Camry</h3>
+                  <p>2024 &nbsp; | &nbsp; Hybrid</p>
+
+                  <div class="featured-price">
+                    <strong>$31,800</strong>
+                    <a href="#">View &rarr;</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-car">
+                <div class="featured-image">
+                  <img src="rre.jpg" alt="Range Rover Evoque" />
+                </div>
+
+                <div class="featured-info">
+                  <h3>Range Rover Evoque</h3>
+                  <p>2023 &nbsp; | &nbsp; Automatic</p>
+
+                  <div class="featured-price">
+                    <strong>$46,750</strong>
+                    <a href="#">View &rarr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="need-help">
+            <div class="help-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path
+                  d="M9.5 9a2.5 2.5 0 1 1 4.3 1.7c-.9.8-1.8 1.2-1.8 2.3"
+                ></path>
+                <path d="M12 16.5h.01"></path>
+              </svg>
+            </div>
+
+            <h2>Need Help?</h2>
+
+            <p>
+              Have questions about our cars, bookings or payments? Our support
+              team is here to help.
+            </p>
+
+            <a href="#" class="help-button"> Contact Support &rarr; </a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
